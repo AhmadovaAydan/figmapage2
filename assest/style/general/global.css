@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: fixed;
+  z-index: 1;
+  top: 0; */
+  height: 102px;
+  border-bottom: solid 0.7px var(--gray200);
+  width: 100%;
+  padding: 32px;
+  /* position: relative; */
+}
+
+.logo {
+  color: var(--mainColor);
+  font-size: 29px;
+  font-weight: 700;
+  width: 50%;
+}
+
+.navbar {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_list {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--black);
+}
+.active {
+  color: var(--mainColor);
+}
+.navbar ul li {
+  position: relative;
+}
+
+.active::before {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: var(--green200);
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: -8px;
+}
+
+.btncontact {
+  width: 125px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--mainColor);
+  color: var(--white);
+
+  font-size: 13px;
+  font-weight: 400;
+  border-radius: 6px;
+
+  transition: all 0.3s;
+}
+
+.btn-contact:hover {
+  opacity: 0.6;
+}

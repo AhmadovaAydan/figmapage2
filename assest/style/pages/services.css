@@ -1,0 +1,229 @@
+.services_headr {
+  background-color: var(--blue50);
+  padding-bottom: 80px;
+  padding-top: 78px;
+  margin-bottom: 40px;
+  height: 743px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+}
+.srheadr_images {
+  background-color: var(--white);
+  padding: 32px;
+  border-radius: 64px;
+  margin-bottom: 22px;
+}
+.services_headr h1 {
+  color: var(--black);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.services_headr span {
+  color: var(--mainColor);
+  font-weight: 600;
+}
+.services_headr p {
+  color: #696969;
+  text-align: center;
+  font-size: 18px;
+  width: 440px;
+  font-weight: 400;
+  line-height: 175%; /* 31.5px */
+  padding-top: 18px;
+}
+.ser_icon {
+  position: absolute;
+  top: -66px;
+  right: 90px;
+}
+.ser_cards {
+  display: flex;
+  gap: 98px;
+  padding: 62px 71px 82px 96px;
+  border-radius: 10px;
+  background: var(--white);
+  box-shadow: 0px 4px 114px 0px rgba(0, 0, 0, 0.09);
+  height: 441px;
+  margin-left: 118px;
+  margin-right: 118px;
+  margin-bottom: 72px;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 550px;
+}
+.ser_card1,
+.ser_card2,
+.ser_card3,
+.ser_card4 {
+  display: flex;
+  gap: 40px;
+}
+
+.card_h {
+  color: var(--black);
+  /* text-align: center; */
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 177.9%; /* 44.475px */
+  letter-spacing: 0.25px;
+}
+.card_info {
+  color: #797979;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 177.9%; /* 28.464px */
+  letter-spacing: 0.16px;
+  width: 323px;
+  height: 53px;
+}
+.card_img1 {
+  border-radius: 20px;
+  background: #f1e8ff;
+  padding: 24px;
+  margin-right: 38px;
+}
+.card_img3 {
+  border-radius: 20px;
+  background: #e2f3ff;
+  padding: 24px;
+  margin-right: 38px;
+}
+.card_img2 {
+  border-radius: 20px;
+  background: #fff2f2;
+  margin-right: 38px;
+  padding: 24px;
+}
+.card_img4 {
+  border-radius: 20px;
+  background: #ffe7fb;
+  padding: 28px;
+  margin-right: 38px;
+}
+.serinfo_card {
+  display: flex;
+  margin: 190px 20px 190px 120px;
+}
+.ser_info {
+  width: 40%;
+  margin-top: 50px;
+}
+.ser_info h2 {
+  color: #252525;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 170%;
+  padding-bottom: 56px;
+}
+.ser_info span {
+  color: var(--mainColor);
+}
+.ser_info p {
+  color: #545454;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%; /* 28.8px */
+}
+.ser_btn {
+  margin-top: 40px;
+  padding: 9px 52px;
+  border-radius: 10px;
+  border: 1px solid var(--mainColor);
+  background: var(--white);
+  color: var(--mainColor);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 204.3%; /* 32.688px */
+}
+/* .ser_img {
+  width: 60%;
+} */
+.rectangle {
+  padding: 130px 178px;
+  display: flex;
+  gap: 160px;
+  background-color: var(--mainColor);
+  margin-bottom: 140px;
+  position: relative;
+}
+.rectangle_num {
+  color: var(--white);
+  text-align: center;
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 177.9%; /* 115.635px */
+  letter-spacing: 0.65px;
+}
+.rectangle_info {
+  color: var(--white);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 177.9%; /* 28.464px */
+  letter-spacing: 0.16px;
+}
+.vec1 {
+  top: -100px;
+  left: 130px;
+  position: absolute;
+}
+.vec2 {
+  position: absolute;
+  top: -60px;
+  right: 190px;
+}
+
+.vec3 {
+  position: absolute;
+  bottom: -14px;
+  left: -10px;
+}
+.img1 {
+  position: absolute;
+  bottom: -40px;
+  left: 280px;
+}
+.img2 {
+  position: absolute;
+  top: -70px;
+  right: 180px;
+}
+.latest {
+  display: flex;
+  flex-direction: column;
+  padding-left: 119px;
+  margin-bottom: 100px;
+}
+.latest_cards {
+  display: flex;
+  gap: 84px;
+  margin-top: 64px;
+}
+.latest h3 {
+  color: var(--black);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 177.9%; /* 64.044px */
+  letter-spacing: 0.36px;
+}
+.latest_info {
+  width: 333px;
+  color: var(--black);
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 177.9%; /* 40.917px */
+  letter-spacing: 0.23px;
+}
+.latest_text {
+  width: 333px;
+  color: #424242;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 210.9%; /* 33.744px */
+  letter-spacing: 0.16px;
+}
