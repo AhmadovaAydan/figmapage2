@@ -1,5 +1,6 @@
 .info {
   display: flex;
+  margin-top: 80px;
 }
 .sec_info h2 {
   color: var(--mainColor);

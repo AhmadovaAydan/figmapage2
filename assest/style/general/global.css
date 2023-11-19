@@ -9,13 +9,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* position: fixed;
+  position: fixed;
   z-index: 1;
-  top: 0; */
+  /* top: 0; */
   height: 102px;
   border-bottom: solid 0.7px var(--gray200);
   width: 100%;
   padding: 32px;
+  margin-bottom: 80px;
   /* position: relative; */
 }
 
