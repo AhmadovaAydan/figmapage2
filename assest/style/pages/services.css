@@ -110,10 +110,11 @@
 .serinfo_card {
   display: flex;
   margin: 190px 20px 190px 120px;
+  padding-top: 80px;
 }
 .ser_info {
   width: 40%;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .ser_info h2 {
   color: #252525;
